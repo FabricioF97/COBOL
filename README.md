@@ -508,10 +508,7 @@ Adicione:
     "terminal.integrated.profiles.windows": {
         "MSYS2 UCRT64": {
             "path": "C:\\msys64\\usr\\bin\\bash.exe",
-            "args": [
-                "--login",
-                "-i"
-            ],
+            "args": ["--login", "-i"],
             "env": {
                 "MSYSTEM": "UCRT64",
                 "CHERE_INVOKING": "1"
@@ -519,9 +516,19 @@ Adicione:
         }
     },
 
-    "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT64"
+    "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT64",
+    "workbench.colorTheme": "Dracula Theme",
+
+    "editor.rulers": [6, 7, 11, 72],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "all",
+
+    "files.associations": {
+        "*.cbl": "cobol",
+        "*.cob": "cobol"
+    }
 }
-```
 
 Salve:
 
